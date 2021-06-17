@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, nav, aside, article, hgroup, li
+{
+	display: block;
+}
+body
+{
+	background: black;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	text-align: center;
+	-webkit-box-flex: 0;
+}
+
+#box{
+	background: #1E2123;
+	border: 3px solid black;
+	width: 450px;
+	height: 620px;
+	border-radius: 30px;
+	margin: 50px;
+}
+
+#screen
+{
+	background: black;
+	border-radius: 30px;
+	margin: 20px;
+	width: 400px;
+	height: 100px;
+	-webkit-box-flex: 0;
+}
+
+#name
+{
+	color: #5CF0FF;
+	margin-left: -110px;
+}
+
+#name2{
+	color: #23FF6F;
+	margin-top: -470px;
+}
+
+#tri-buttons{
+	margin-left: -210px;
+	margin-top: -15px;
+}
+
+#num{
+	margin-left: -210px;
+}
+
+#low{
+	margin-left: -210px;	
+}
+
+#tri1,#tri2,#tri3,#tri4,#tri5,#tri6,#tri7,#tri8,#tri9{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #5CF0FF;
+	border: 1px sloid yellow;
+	font: 20px bold black;
+
+
+}
+
+#n1,#n2,#n3,#n4,#n5,#n6,#n7,#n8,#n9{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #D9F0FF;
+	border: 1px sloid yellow;
+	font: 20px bold black;
+
+}
+
+#l1,#l2,#l3{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #D9F0FF;
+	border: 1px sloid yellow;
+	font: 20px bold black;
+}
+
+#inv1,#inv2,#inv3,#inv4,#inv5,#inv6,#inv7,#inv8,#inv9
+{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #23FF6F;
+	border: 1px sloid yellow;
+	font: 20px bold black;
+}
+
+#tri-inv{
+	margin-top: -450px;
+	margin-left: 200px;
+}
+
+#res1,#res2,#res3{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #FF6A5B;
+	border: 1px sloid yellow;
+	font: 20px bold black;	
+}
+
+#result, #mat{
+	margin-left: 200px;	
+}
+
+#m1,#m2,#m3,#m4,#m5,#m6,#m7,#m8,#m9{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #FF9300;
+	border: 1px sloid yellow;
+	font: 20px bold black;	
+}
+
+#data
+{
+	font-family: digital;
+	font-size: 25px;
+	color: white;
+	margin-right: 580px;
+	margin-left: -15px;
+	-webkit-box-flex: 0;
+	padding: 20px;
+}
